@@ -48,7 +48,7 @@ body {
 .btn {
   position: absolute;
   border: none;
-  border-radius: 50px;
+  border-radius: 20px;
   padding: 10px 20px;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -225,7 +225,9 @@ body {
   -moz-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
     normal;
 }
-
+.footer{
+	margin-top: 700px;
+}
 @keyframes cssload-square {
   50% {
     border-radius: 100%;
@@ -245,6 +247,7 @@ body {
     -o-transform: scale(1) rotate(-45deg);
   }
 }
+
 
 @-ms-keyframes cssload-square {
   50% {
